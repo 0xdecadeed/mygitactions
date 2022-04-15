@@ -1,0 +1,9 @@
+name: echostuff
+on: push
+jobs:
+  echo-stuff:
+    name: Just echo stuff
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo my name
+        run: echo "Decade Ed"
